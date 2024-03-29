@@ -1,0 +1,19 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    min-height: 100vh; 
+    /* Ensures the container takes up the full viewport height */
+  }
+  .contain{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    /* margin: auto; */
+  }
+  .contain p {
+    max-width: 60%; /* Adjust to control the number of lines */
+    text-align: center;
+    margin: auto ;
+    font-size: 1.3rem;
+  }  

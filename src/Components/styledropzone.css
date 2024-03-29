@@ -1,0 +1,141 @@
+.dropzone-container {
+    
+    /* position: absolute; */
+    /* margin-top: 8rem; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+
+  }
+  
+.dropzone {
+    border: 1px solid #cccccc;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    z-index: 10;
+    margin: auto;
+
+  }
+
+  #dropboxtext{
+font-size: large;
+  }
+  .dropzone.active {
+    border-color: #007bff;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+
+  .file-list{
+    margin-top: 1em;
+    /* margin-bottom: 10rem; */
+  }
+
+  .accepted-file{
+    margin-top: 0.4em;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 15px;
+    /* width: 100vw; */
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+  }
+  @media screen and (max-width:769px) {
+   .accepted-file{
+    margin-top: 0.4em;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 15px;
+    /* width: 100vw; */
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 45vh;
+    justify-content: flex-start;
+   }
+   
+   #rollingbutton{
+    display: none;
+   }
+  
+}
+@media screen and (max-width:360px) {
+  .accepted-file{
+    margin-top: 0.4em;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 15px;
+    /* width: 100vw; */
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 45vh;
+    justify-content: flex-start;
+   }
+   .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 0;
+    
+   }
+  
+}
+@media screen and (max-width:853px) {
+  .accepted-file{
+    margin-top: 0.4em;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 15px;
+    /* width: 100vw; */
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 45vh;
+    justify-content: flex-start;
+   }
+   
+ 
+}
+  .filenameandicon{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .videoicon{
+    margin-right: 5px;
+  }
+
+  .buttons{
+  /* position: absolute; */
+  /* right: 0px; */
+  }
+  
+  .spinner{
+    
+  }
+
+
+
+  
